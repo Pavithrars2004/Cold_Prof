@@ -1,4 +1,4 @@
-# Scriba – Chrome Extension
+
 
 A lightweight Chrome extension that rewrites selected text into a professional, human-like email using OpenAI.
 
