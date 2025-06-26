@@ -1,31 +1,23 @@
+# Cold_Prof
 
+**Cold_Prof** is a simple and efficient Chrome Extension that helps students write professional and polite emails to professors for various academic purposes — like requesting projects, internships, research opportunities, or mentorship.
 
-A lightweight Chrome extension that rewrites selected text into a professional, human-like email using OpenAI.
+This is a **personalized version** of an existing open-source tool. I chose this project because it solves a real-world student problem, and I’ve adapted it to match my own use case and preferences.
 
-I often found myself rewriting emails to sound clearer and more polished. It helped me understand how Chrome extensions work and how to integrate APIs like OpenAI.
+---
 
-## Features
+## 🚀 Features
 
-- ✅ Rewrites selected email text into a more professional tone  
-- ✅ Clean, minimal popup UI with a copy button  
-- ✅ Works on Gmail and similar mail platforms  
-- ✅ Fully self-contained and privacy-friendly (no tracking or logging)
+- 🧠 Automatically generates structured email templates
+- 🧾 Helps in writing formal, polite cold emails
+- ⚡ Simple and lightweight popup interface
+- ✍️ Customizable subject, greeting, and content
+- 🧩 Easy to plug into your browser – no bloat!
 
-## How to Install
+---
 
-1. Clone or download this repository.
-2. Open `chrome://extensions` in your Chrome browser.
-3. Enable **Developer mode** (top right corner).
-4. Click **Load unpacked** and select the extracted project folder.
-5. Go to Gmail or any webpage, select some text, then click the extension icon.
-6. The rewritten version will appear in the popup — click **Copy** to use it.
+## 📦 How to Use
 
-## What I Learned
-
-This project helped me understand:
-- Chrome extension structure: background scripts, content scripts, and popups  
-- Extracting and manipulating selected text on live web pages  
-- Designing intuitive micro-interfaces  
-- Calling and managing external APIs like OpenAI  
-- Learning through small, practical experiments
-
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/Pavithrars2004/Cold_Prof.git
