@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "AI Email Rewriter",
+  "version": "1.0",
+  "description": "Rewrite selected emails into professional format using OpenAI.",
+  "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

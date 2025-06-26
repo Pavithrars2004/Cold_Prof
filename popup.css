@@ -1,0 +1,21 @@
+button#copyBtn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px 0;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 15px;   /* nice pill shape */
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  user-select: none;
+}
+
+button#copyBtn:hover,
+button#rewriteButton:hover {
+  background-color: #222;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+}
